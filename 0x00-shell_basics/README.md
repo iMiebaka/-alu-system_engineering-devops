@@ -1,1 +1,1 @@
-Display current directory contents in a long format
+https://alx-intranet.hbtn.io/projects/205
