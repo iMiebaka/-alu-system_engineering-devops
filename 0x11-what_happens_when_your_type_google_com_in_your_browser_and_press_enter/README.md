@@ -1,10 +1,10 @@
-# Exploring the Journey of a Web Request: From Typing "https://www.google.com" to Pressing Enter
+# Exploring the Journey of a Web Request: From Typing https://www.google.com to Pressing Enter
 
 ### Introduction:
-When you type "https://www.google.com" into your browser's address bar and hit Enter, a series of intricate processes begins behind the scenes to bring the website to your screen. In this blog post, we'll delve into the various components involved in this journey and understand how each one plays a crucial role in delivering the requested web page.
+When you type https://www.google.com into your browser's address bar and hit Enter, a series of intricate processes begins behind the scenes to bring the website to your screen. In this blog post, we'll delve into the various components involved in this journey and understand how each one plays a crucial role in delivering the requested web page.
 
 ### DNS Request:
-The first step is a Domain Name System (DNS) request. The browser sends a query to a DNS resolver to translate the human-readable domain name "www.google.com" into an IP address. The resolver consults various DNS servers to find the corresponding IP address for the domain.
+The first step is a Domain Name System (DNS) request. The browser sends a query to a DNS resolver to translate the human-readable domain name www.google.com into an IP address. The resolver consults various DNS servers to find the corresponding IP address for the domain.
 
 ### TCP/IP:
 Once the IP address is obtained, the browser establishes a Transmission Control Protocol (TCP) connection with the server hosting the website. TCP ensures reliable data transmission by breaking it into packets and managing their successful delivery.
@@ -28,5 +28,5 @@ In some cases, a separate application server is involved. It handles dynamic con
 Behind the scenes, a database system stores and manages the massive amounts of data required to power a website like Google. The application server communicates with the database to fetch requested information, such as search results or user-specific data.
 
 ### Conclusion:
-The journey from typing (https://www.google.com)[https://www.google.com] to seeing the web page on your screen involves a complex web of processes and components. From the DNS request to the TCP/IP connection, passing through firewalls and load-balancers, and involving web servers, application servers, and databases, each step contributes to delivering a seamless browsing experience. Understanding this behind-the-scenes journey can help us appreciate the intricate mechanisms that power the websites we visit every day.
+The journey from typing [https://www.google.com](https://www.google.com) to seeing the web page on your screen involves a complex web of processes and components. From the DNS request to the TCP/IP connection, passing through firewalls and load-balancers, and involving web servers, application servers, and databases, each step contributes to delivering a seamless browsing experience. Understanding this behind-the-scenes journey can help us appreciate the intricate mechanisms that power the websites we visit every day.
 
